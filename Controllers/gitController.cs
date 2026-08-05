@@ -13,5 +13,9 @@ namespace GitPresetation.Controllers
         {
             return View("Git is the didstribution version control system");
         }
+        public ActionResult Index1()
+        {
+            return View("Git is the didstribution version control system.  It is used for backup the code for future.");
+        }
     }
 }
