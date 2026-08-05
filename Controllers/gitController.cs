@@ -11,7 +11,7 @@ namespace GitPresetation.Controllers
         // GET: git
         public ActionResult Index()
         {
-            return View();
+            return View("Git is the didstribution version control system");
         }
     }
 }
